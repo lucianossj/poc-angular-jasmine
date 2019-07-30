@@ -22,4 +22,5 @@ export class TodosComponent {
     if (confirm('Are you sure?'))
       this.service.delete(id).subscribe();
   }  
+  
 }
