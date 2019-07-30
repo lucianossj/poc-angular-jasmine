@@ -68,7 +68,7 @@ describe('TodosComponent', () => {
     
     let error = 'error from the server';
 
-    let spy = spyOn(service, 'add').and.returnValue(Observable.throw() ]));
+    let spy = spyOn(service, 'add').and.returnValue(Observable.throw());
     
     component.add();
 
